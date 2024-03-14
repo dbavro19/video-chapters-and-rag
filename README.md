@@ -50,11 +50,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the Streamlit app:
+1. Run the Streamlit appa:
 
 ```bash
 streamlit run ingest-app.py
+```
 
+```bash
 streamlit run search-app.py
 ```
 
