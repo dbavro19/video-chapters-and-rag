@@ -54,7 +54,8 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run ingest-app.py
-Streamlit run search-app.py
+
+streamlit run search-app.py
 ```
 
 2. In ingest-app.py: Upload a video file through the Streamlit interface.
