@@ -73,4 +73,3 @@ streamlit run search-app.py
 The contents of this repository represent my viewpoints and not of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
 
 ```
-![image](https://github.com/dbavro19/video-chapters-and-rag/assets/12836698/937c6584-ec4a-4d71-a68b-a8e1378f444c)
