@@ -356,8 +356,8 @@ def add_row(df, new_row_data):
 #Persisting docuemnts into Opensearch
 def persist_doc(doc):
     #Setup Opensearch connectionand clinet
-    host = '14dzfsbbbt70yuz57f23.us-west-2.aoss.amazonaws.com' #use Opensearch Serverless host here
-    region = 'us-west-2'# set region of you Opensearch severless collection
+    host = 'OPENSEARCH_SERVERLESS_HOST' #use Opensearch Serverless host here
+    region = 'REGION'# set region of you Opensearch severless collection
     service = 'aoss'
     credentials = boto3.Session().get_credentials() #Use enviroment credentials
     auth = AWSV4SignerAuth(credentials, region, service) 
@@ -418,7 +418,7 @@ def index_doc(client, vectors, title,summary,video_source, source_seconds):
         }
 
     response = client.index(
-        index = "video-summaries", #Use your index 
+        index = "OPENSEARCH_SERVERLESS_INDEX_NAME", #Use your index 
         body = indexDocument,
     #    id = '1', commenting out for now
         refresh = False
