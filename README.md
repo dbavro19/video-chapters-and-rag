@@ -3,6 +3,7 @@ Read-me
 
 This is sample code demostrating the use of Generative AI's capability to analyze and identify topics/sections in unmarked video content and provide a searchable interface that uses Generative AI and Retrieval Augmeented Generation to respond to end user questions with video content and links to the start time of relevant video. 
 
+![Architecture and workflow diagram](https://github.com/[dbavro19]/[video-chapters-and-rag]/blob/[branch]/image.jpg?raw=true)
 
 This project is a prototype/proof of concept and should not be leveraged directly in production
 
