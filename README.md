@@ -25,10 +25,11 @@ It should also be noted that this project focuses soley on the audio content wit
 
 ## Prerequisites
 
-- AWS account with access to Anthropic's Claude Instant and Claude 2.1 model via Amazon Bedrock
-- OpenSearch Serverless Vector store 
-- CloudFront (or a public S3 bucket) for serving the video content
-- Python 3.x
+* AWS account with access to Anthropic's Claude Instant and Claude 2.1 model via Amazon Bedrock
+* OpenSearch Serverless Vector store
+    * Vector field should be 1536 dimensions
+* CloudFront (or a public S3 bucket) for serving the video content
+* Python 3.x
 
 
 ## Installation
