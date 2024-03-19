@@ -28,6 +28,13 @@ It should also be noted that this project focuses soley on the audio content wit
 * AWS account with access to Anthropic's Claude Instant and Claude 2.1 model via Amazon Bedrock
 * OpenSearch Serverless Vector store
     * Vector field should be 1536 dimensions
+    * Cosine distance
+    * Metadata fields should include the following fields
+         * Title
+         * Summary
+         * Start Time
+         * StartTimeSeconds
+         * VideoSource
 * CloudFront (or a public S3 bucket) for serving the video content
 * Python 3.x
 
